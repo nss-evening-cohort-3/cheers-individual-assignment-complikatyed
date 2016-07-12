@@ -13,6 +13,7 @@ namespace Cheers
             Console.Write("> ");
             String user_name = Console.ReadLine();
 
+            Console.WriteLine(user_name.ToUpper() + " is.. GRAND!");
         }
     }
 }
